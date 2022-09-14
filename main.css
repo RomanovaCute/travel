@@ -467,7 +467,7 @@ template {
 
 .container {
   width: 100%;
-  background: url("../../images/homepage_pic.jpg");
+  background: url("/assets/images/homepage_pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
