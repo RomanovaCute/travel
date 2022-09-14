@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/RomanovaCute/travel/issues"
   },
-  "homepage": "https://RomanovaCute.github.io/travel/",
+  "homepage": "https://github.com/RomanovaCute/travel/",
   "dependencies": {
     "express": "^4.18.1",
     "gh-pages": "^4.0.0",
