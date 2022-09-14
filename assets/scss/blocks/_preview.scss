@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    background: url('/assets/images/homepage_pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .preview__box{
+            // max-height: 422px;
+            display: flex;
+            flex-direction: column;
+            // width: 100%;
+            max-width: 1440px;
+            padding: 122px 428px 221px 120px;
+        
+        @media (max-width: 392px){
+            padding: 142px 15px 61px;
+        }
+
+            .title{
+                font-family: 'Aleo', sans-serif;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 96px;
+                margin: 0 0 10px 0;
+                color: rgba(255, 255, 255, 1);
+
+                @media (max-width: 392px){
+                    display: none;
+                }
+
+            }
+
+            .subtitle{
+                font-family: 'Aleo', sans-serif;
+                font-style: italic;
+                color: rgba(255, 255, 255, 1);
+
+                @media (max-width: 392px){
+                    display: none;
+                }
+            }
+            
+        .preview__search{
+            display: flex;
+            max-width: 892px;
+
+            @media (max-width: 392px){
+                width: 360px;
+                height: 48px;
+            }
+        }
+            .search{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.7);
+                border-radius: 16px;
+                padding: 18px 18px 18px 41px;
+
+                input{
+                    background: none;
+                    border: none;
+                    outline: none;
+                    width: 75%;
+
+                    ::placeholder{
+                        color: rgba(242, 120, 92, 1);
+                    }
+                }
+
+                button{
+                    @include button;
+                    width: 228px;
+
+                    @media (max-width: 392px){
+                        width: 40%;
+                        height: 30px;
+                        font-size: 11px;
+                        padding: 7.5px 9px;
+                    }
+                }
+            }
+        }
+
+    }
